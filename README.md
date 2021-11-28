@@ -1,2 +1,4 @@
-# World_Weather_Analysis
-Module 6 Repository
+# World Weather Analysis
+
+## Overview of World Weather Analysis
+The purpose of the World Weather Analysis was to aid the PlanMyTrip company in collecting and presenting data for customers via the search page, which they would filter based on their preferred travel criteria in order to find their ideal hotel anywhere in the world. To perform this analysis, Jupyter Notebook and the Python `citipy` module were used to get the cities for more than 2000 random latitudes and longitudes. Requests were performed on the Open Weather Map API to retrieve JSON weather data on these cities. Then, the data gathered was used to choose the best cities for a vacation based on certain weather criteria, and to identify nearby hotels. These cities were mapped using Jupyter `gmaps` and the Google Places API. Finally, the Google Maps Directions API was used to create a travel route between cities, including a marker layer map.
